@@ -1,0 +1,12 @@
+C:\dev\another\bin\Debug\net6.0\another.deps.json
+C:\dev\another\bin\Debug\net6.0\another.dll
+C:\dev\another\bin\Debug\net6.0\ref\another.dll
+C:\dev\another\bin\Debug\net6.0\another.pdb
+C:\dev\another\obj\Debug\net6.0\another.csproj.AssemblyReference.cache
+C:\dev\another\obj\Debug\net6.0\another.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\another\obj\Debug\net6.0\another.AssemblyInfoInputs.cache
+C:\dev\another\obj\Debug\net6.0\another.AssemblyInfo.cs
+C:\dev\another\obj\Debug\net6.0\another.csproj.CoreCompileInputs.cache
+C:\dev\another\obj\Debug\net6.0\another.dll
+C:\dev\another\obj\Debug\net6.0\ref\another.dll
+C:\dev\another\obj\Debug\net6.0\another.pdb
