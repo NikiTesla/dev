@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\another\\another.csproj",
+      "projectUniqueName": "C:\\devdotnet\\another\\another.csproj",
       "projectName": "another",
-      "projectPath": "C:\\dev\\another\\another.csproj",
+      "projectPath": "C:\\devdotnet\\another\\another.csproj",
       "packagesPath": "C:\\Users\\krech\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\another\\obj\\",
+      "outputPath": "C:\\devdotnet\\another\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\krech\\AppData\\Roaming\\NuGet\\NuGet.Config"

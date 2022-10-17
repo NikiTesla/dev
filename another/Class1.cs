@@ -1,4 +1,4 @@
-﻿namespace dev.another
+﻿namespace devdotnet.another
 {
     public static class Class1
     {

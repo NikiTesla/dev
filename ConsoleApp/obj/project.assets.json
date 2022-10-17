@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\devdotnet\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\dev\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\devdotnet\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\krech\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\devdotnet\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\krech\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\another\\another.csproj": {
-              "projectPath": "C:\\dev\\another\\another.csproj"
+            "C:\\devdotnet\\another\\another.csproj": {
+              "projectPath": "C:\\devdotnet\\another\\another.csproj"
             }
           }
         }

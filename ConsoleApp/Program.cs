@@ -1,7 +1,7 @@
 ﻿using System;
-using dev.another;
+using devdotnet.another;
 
-namespace dev.ConsoleApp
+namespace devdotnet.ConsoleApp
 {
     public class Program
     {
