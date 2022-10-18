@@ -2,7 +2,7 @@
 {
     public static class Class1
     {
-        public static int Sum(int x, int y)
+        public static double Sum(double x, double y)
         {
             return x + y;
         }

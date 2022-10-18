@@ -1,9 +1,11 @@
-arr1, arr2 = [], []
+print('testing')
 
-arr1.append(1)
-arr2.append(2)
+for i in range(10):
+    print(' ' * (10 - i) + '*' * i, end=' ')
+    print('*' * i + ' ' * (10 - i))
 
-def my_func(arr1, arr2):
-    print(arr1, arr2)
+print()
 
-my_func(arr1, arr2)
+for i in range(10, 0, -1):
+    print(' ' * (10 - i) + '*' * i, end=' ')
+    print('*' * i + ' ' * (10 - i))
