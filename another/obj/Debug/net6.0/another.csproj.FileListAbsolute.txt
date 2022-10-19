@@ -12,7 +12,6 @@ C:\dev\another\obj\Debug\net6.0\ref\another.dll
 C:\dev\another\obj\Debug\net6.0\another.pdb
 C:\devdotnet\another\bin\Debug\net6.0\another.deps.json
 C:\devdotnet\another\bin\Debug\net6.0\another.dll
-C:\devdotnet\another\bin\Debug\net6.0\ref\another.dll
 C:\devdotnet\another\bin\Debug\net6.0\another.pdb
 C:\devdotnet\another\obj\Debug\net6.0\another.csproj.AssemblyReference.cache
 C:\devdotnet\another\obj\Debug\net6.0\another.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@ C:\devdotnet\another\obj\Debug\net6.0\another.csproj.CoreCompileInputs.cache
 C:\devdotnet\another\obj\Debug\net6.0\another.dll
 C:\devdotnet\another\obj\Debug\net6.0\ref\another.dll
 C:\devdotnet\another\obj\Debug\net6.0\another.pdb
+C:\devdotnet\another\obj\Debug\net6.0\refint\another.dll

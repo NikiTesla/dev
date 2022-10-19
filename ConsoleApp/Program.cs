@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Globalization;
-using devdotnet.another;
+using System.Linq;
 
-namespace devdotnet.ConsoleApp
+namespace devdotnet
 {
     public class Program
     {
-        /* 
-        Class program created to work with structures, showing syntax and main ideas of C#
-        firstly, main function starts with capital M, get it.
-        secondly, read comments to understand what to learn next
-        */
         public static bool GetFirst()
         {
             Console.WriteLine("Getting first...");
@@ -31,9 +26,7 @@ namespace devdotnet.ConsoleApp
             {
                 NumberDecimalSeparator = ".",
             };
-            // создадим список для дальнейшей записи чисел
-            double[] arr = {0, 0, 0, 0};
-            
+
             // преобразование строк, введеных в консоль в число с плавающей точкой
             // arr[0] = Convert.ToDouble(Console.ReadLine(), numberFormatInfo);
             // arr[1] = Convert.ToDouble(Console.ReadLine(), numberFormatInfo);
@@ -43,38 +36,52 @@ namespace devdotnet.ConsoleApp
             // bool bb = double.TryParse(Console.ReadLine(), out arr[3]);
             
             // создание экземпляров структуры с двумя дробными числами
-            mystruct s1 = new(arr[0], arr[1]);
-            mystruct s2 = new(arr[2], arr[3]);
+            // mystruct s1 = new(arr[0], arr[1]);
+            // mystruct s2 = new(arr[2], arr[3]);
 
-            Console.WriteLine(String.Format("s1.x : {0}\ts2.x : {1}", s1.x, s2.x));
-            Console.WriteLine(String.Format("s1.y : {0}\ts2.y : {1}", s1.y, s2.y));
+            // Console.WriteLine(String.Format("s1.x : {0}\ts2.x : {1}", s1.x, s2.x));
+            // Console.WriteLine(String.Format("s1.y : {0}\ts2.y : {1}", s1.y, s2.y));
 
 
-            if(GetFirst() && GetSecond()) Console.WriteLine("Infected or hot");
-            else Console.WriteLine("Not infected and not hot");
+            // if(GetFirst() && GetSecond()) Console.WriteLine("Infected or hot");
+            // else Console.WriteLine("Not infected and not hot");
 
-            while (true)
-            {
-                ConsoleKey consoleKey = Console.ReadKey().Key;
-                switch (consoleKey)
-                {
-                    case ConsoleKey.W:
-                        Console.WriteLine("Идём вперёд");
-                        break;
-                    case ConsoleKey.S:
-                        Console.WriteLine("Идём назад");
-                        break;
-                    case ConsoleKey.A:
-                        Console.WriteLine("Идём налево");
-                        break;
-                    case ConsoleKey.D:
-                        Console.WriteLine("Идём направо");
-                        break;
-                    case ConsoleKey.Spacebar:
-                        Console.WriteLine("JUMP");
-                        break;
-                }
-            }
+            // while (true)
+            // {
+            //     ConsoleKey consoleKey = Console.ReadKey().Key;
+            //     switch (consoleKey)
+            //     {
+            //         case ConsoleKey.W:
+            //             Console.WriteLine("Идём вперёд");
+            //             break;
+            //         case ConsoleKey.S:
+            //             Console.WriteLine("Идём назад");
+            //             break;
+            //         case ConsoleKey.A:
+            //             Console.WriteLine("Идём налево");
+            //             break;
+            //         case ConsoleKey.D:
+            //             Console.WriteLine("Идём направо");
+            //             break;
+            //         case ConsoleKey.Spacebar:
+            //             Console.WriteLine("JUMP");
+            //             break;
+            //     }
+
+            // }
+
+            // int[,] res = Class1.GetArray();
+            // for (int i = 0; i < 3; i++)
+            // {
+            //     for (int j = 0; j < 3; j++) Console.Write($"{res[i,j]} ");
+            //     Console.WriteLine();
+            // }
+            int[] myArray = Enumerable.Range(1, 10).ToArray();
+            for (int i = 0; i < myArray.Length; i++) Console.Write(myArray[i] + "\t");
+            
+            Console.WriteLine();
+            int[] number = myArray.Where(i => i > 5).ToArray();
+            Console.WriteLine(number[1]);
         }
 
         // создание структуры в теле основного класса программы

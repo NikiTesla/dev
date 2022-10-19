@@ -20,7 +20,6 @@ C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ConsoleApp.exe
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ConsoleApp.deps.json
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ConsoleApp.runtimeconfig.json
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ConsoleApp.dll
-C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ref\ConsoleApp.dll
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\ConsoleApp.pdb
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\another.dll
 C:\devdotnet\ConsoleApp\bin\Debug\net6.0\another.pdb
@@ -34,3 +33,4 @@ C:\devdotnet\ConsoleApp\obj\Debug\net6.0\ConsoleApp.dll
 C:\devdotnet\ConsoleApp\obj\Debug\net6.0\ref\ConsoleApp.dll
 C:\devdotnet\ConsoleApp\obj\Debug\net6.0\ConsoleApp.pdb
 C:\devdotnet\ConsoleApp\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
+C:\devdotnet\ConsoleApp\obj\Debug\net6.0\refint\ConsoleApp.dll
