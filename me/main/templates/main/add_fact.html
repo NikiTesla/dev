@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+    New Fact
+{% endblock %}
+
+{% block content %}
+    <h1>Add new fact about Lulza</h1>
+    <div class="">
+        <form method="post">
+            {% csrf_token %}
+
+            {{form.title}}<br>
+            {{form.fact}}<br>
+
+            <button type="submit" class="btn btn-success">Добавить</button>
+            <span>{{error}}</span>
+        </form>
+    </div>
+{% endblock %}

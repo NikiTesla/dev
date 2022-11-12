@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Facts
+{% endblock %}
+
+{% block body%}
+<h1 class="mb-4">Facts about my love</h1>
+{% for fact in facts %}
+<div class="alert alert-info">
+    <h2>{{ fact.name }}</h2>
+    <p>Date: {{ fact.date.date() }}</p>
+    <a href="/fact/{{ fact.id }}" class="btn btn-primary text-light">Подробнее</a>
+</div>   
+{% endfor %}
+
+{% endblock %}

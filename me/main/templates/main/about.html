@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+About Lulza
+{% endblock %}
+
+{% block content %}
+<h1>Facts about Lulza</h1>
+<p></p>
+{% for fact in facts %}
+        <div>
+            <h4>{{fact.id}}. {{fact.title}}</h4>
+            <p>{{fact.fact}}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

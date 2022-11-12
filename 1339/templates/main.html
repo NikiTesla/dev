@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+1339
+{% endblock %}
+
+{% block body%}
+<h1 class="text-center">Чат нефоров</h1>
+<div class="container text-center">
+    <a href="/pidor/1"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/efZZq_P8bSoNKtXhKtLp44DJiW87jwJ6q2ULGkpmCG2kxUIz9hAodzgWb-CMWV7WAqpJaOY68qslfvX8mos1gnlF.jpg') }}"></a>
+    <a href="/pidor/2"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/photo_2022-10-12_17-44-38.jpg') }}"></a>
+    <a href="/pidor/3"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/photo_2022-10-12_18-04-55.jpg') }}"></a>
+    <a href="/pidor/4"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/nw1spduu5HneiaVGuWlv-H7tVWi_4g87jHe9LVq_bSYgiIvJJFTpcw9wAhCsopeoFeSjyJ4hgrDrf6k7YzLY1wvM.jpg') }}"></a>
+    <a href="/pidor/5"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/nefor.jpg') }}"></a>
+    <a href="/pidor/6"><img  style="width: 200px; height: 250px;" src="{{ url_for('static', filename='images/balbes.jpg') }}"></a>
+
+</div>
+<div class="container mt-5">
+    <form method="post">
+        <input class="form-control" name="message" type="text" id="message" placeholder="message"><br>
+        <input type="submit" class="btn btn-success" value="Отправить"></button>
+    </form>
+</div>
+
+<div class="container mt-5">
+    {% for message in messages %}
+        <h4>{{ message.username }}</h4>
+        <p>{{ message.message }}</p>
+    {% endfor %}
+</div>
+{% endblock %}
