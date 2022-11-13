@@ -24,12 +24,12 @@ a {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 30px;
     text-decoration: none;
-    color: burlywood;
+    color: brown;
 }
 
 .stack {
-    background-color: #343a40;
-    color: beige;
+    background-color: beige;
+    color: #343a40;
     padding: 48px;
     height: 700px;
     max-width: 1200px;
