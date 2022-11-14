@@ -1,11 +1,11 @@
 import sys
-sys.path.append('/home/krechetov/dev/app')
-print(sys.path)
+sys.path.append('/home/krechetov/dev/q_app')
 
 
-from db.models.models import Base, User
-from db.client.client import MySQLConnection
-from db.exception import UserNotFoundException
+import sqlalchemy
+from app.db.models.models import Base, User
+from app.db.client.client import MySQLConnection
+from app.db.exceptions import UserNotFoundException
 
 
 class DbInteraction():
@@ -27,7 +27,7 @@ class DbInteraction():
 
 
     def create_table_users(self):
-        if not self.engine.dialect.has_table(self.engine, 'users'):
+        if not sqlalchemy.inspect(self.engine).has_table(self.engine, 'users'):
             Base.metadata.tables['users'].create(self.engine)
         else:
             self.mysql_connection.execute_query("DROP TABLE IF EXISTS users")
@@ -35,7 +35,7 @@ class DbInteraction():
 
 
     def create_table_musical_compositions(self):
-        if not self.engine.dialect.has_table(self.engine, 'musical_compositions'):
+        if not sqlalchemy.inspect(self.engine).has_table(self.engine, 'musical_compositions'):
             Base.metadata.tables['musical_compositions'].create(self.engine)
         else:
             self.mysql_connection.execute_query("DROP TABLE IF EXISTS musical_compositions")

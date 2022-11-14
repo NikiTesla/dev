@@ -3,12 +3,12 @@ import requests
 import argparse
 
 import sys
-sys.path.append('/home/krechetov/dev/app')
+sys.path.append('/home/krechetov/dev/q_app')
 
 from flask import Flask, request, jsonify, abort
 from utils import config_parser
-from db.interaction.interaction import DbInteraction
-from db.exception import UserNotFoundException
+from app.db.exceptions import UserNotFoundException
+from app.db.interaction.interaction import DbInteraction
 
 class Server:
 
