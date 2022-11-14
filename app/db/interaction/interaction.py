@@ -27,7 +27,7 @@ class DbInteraction():
 
 
     def create_table_users(self):
-        if not self.engine.has_table(self.engine, 'users'):
+        if not self.engine.dialect.has_table(self.engine, 'users'):
             Base.metadata.tables['users'].create(self.engine)
         else:
             self.mysql_connection.execute_query("DROP TABLE IF EXISTS users")
@@ -35,7 +35,7 @@ class DbInteraction():
 
 
     def create_table_musical_compositions(self):
-        if not self.engine.has_table(self.engine, 'musical_compositions'):
+        if not self.engine.dialect.has_table(self.engine, 'musical_compositions'):
             Base.metadata.tables['musical_compositions'].create(self.engine)
         else:
             self.mysql_connection.execute_query("DROP TABLE IF EXISTS musical_compositions")
@@ -86,4 +86,5 @@ if __name__ == "__main__":
         db_name='some_db',
         rebuild_db=True
     )
+    
     db.add_user_info('test', 'test', 'test')
