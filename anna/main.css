@@ -27,6 +27,14 @@ a {
     color: brown;
 }
 
+.centered{
+    text-align: center;
+    margin-top: 250px;
+}
+.centered a{
+    font-size: 20px;
+}
+
 .hrefs {
     padding: 50px 10px 10px 10px; 
 }
