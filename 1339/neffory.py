@@ -64,6 +64,9 @@ def unsetsession():
 
 app.secret_key = 'SECRET'
 
+@app.route("/iamtryinggo")
+def trygo():
+	return "You are trying Golang! It's cool"
 
 # Main page of website
 @app.route("/", methods=['POST', 'GET'])
@@ -174,4 +177,4 @@ def signup():
 
 
 if __name__== "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0", port=8080)
