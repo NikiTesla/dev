@@ -2,4 +2,5 @@
 go_project/pkg/
 go_project/bin/
 go_project/telegram_bot/data/
-*.pyc
+**.pyc
+**.db
