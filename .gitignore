@@ -4,3 +4,4 @@ go_project/bin/
 go_project/telegram_bot/data/
 **.pyc
 **.db
+.idea/

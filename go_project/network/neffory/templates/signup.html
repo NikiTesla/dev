@@ -1,0 +1,18 @@
+{% extends 'base_for_login.html' %}
+
+{% block title %}
+Sign Up
+{% endblock %}
+
+{% block body %}
+<div class="jumbotron text-center mt-5">
+    <form method="post">
+        <center>
+        <p style="color: red;">{{ error }}</p>
+        <input style="width: 300pt; align-self: center;" class="form-control" type="text" name="username" id="username" placeholder="username"><br>
+        <input style="width: 300pt; align-self: center;" class="form-control" type="password" name="password" id="password" placeholder="password"><br>
+        <input type="submit" class="btn btn-success">
+        </center>
+    </form>
+</div>
+{% endblock %}

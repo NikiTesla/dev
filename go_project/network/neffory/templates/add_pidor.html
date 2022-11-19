@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Добавить нефора
+{% endblock %}
+
+{% block body%}
+<div class="container mt-5">
+    <h1>Добавить нефора</h1>
+    <form method="post">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Name of nefor"><br>
+        <textarea type="text" name="text" id="text" class="form-control" placeholder="Text about nefor"></textarea><br>
+        <input type="submit" class="btn btn-success" value="Send">
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{pidor.name}}
+{% endblock %}
+
+{% block body %}
+<div class="jumbotron text-center">
+    <h1>{{ pidor.name }}</h1>
+    <p>{{ pidor.text }}</p>
+</div>
+{% endblock %}
