@@ -1,0 +1,26 @@
+{{ define "index" }}
+
+{{ template "header" }}
+
+<main role="main" class="inner cover container">
+    <h1 class="cover-heading">Neffors</h1>
+
+    {{ range . }}
+    <div class="alert alert-warning">
+        <h2>{{ .Name }}</h2>
+        <p>{{ .About }}</p>
+        <a href="/delete_neffor/{{ .Id }}" class="btn btn-warning">delete</a>
+    </div>
+    {{ else }}
+    <p class="lead">no neffors</p>
+
+    {{ end }}
+
+    <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary">About</a>
+    </p>
+</main>
+
+{{ template "footer" }}
+
+{{ end }}
