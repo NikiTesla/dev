@@ -3,7 +3,7 @@ import requests
 import argparse
 
 import sys
-sys.path.append('/home/krechetov/dev/q_app')
+sys.path.append('C:\\dev\\dev\\q_app')
 
 from flask import Flask, request, jsonify, abort
 from utils import config_parser

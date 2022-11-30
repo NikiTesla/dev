@@ -1,6 +1,6 @@
-import sys
-sys.path.append('/home/krechetov/dev/q_app')
 
+import sys
+sys.path.append('C:\\dev\\dev\\q_app')
 
 import sqlalchemy
 from app.db.models.models import Base, User
