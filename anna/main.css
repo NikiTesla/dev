@@ -27,8 +27,16 @@ a {
     color: brown;
 }
 
+.centered{
+    text-align: center;
+    margin-top: 250px;
+}
+.centered a{
+    font-size: 20px;
+}
+
 .hrefs {
-    padding: 100px 10px 10px 10px; 
+    padding: 50px 10px 10px 10px; 
 }
 
 .image{
@@ -36,7 +44,7 @@ a {
     margin-top: 0;
     font-style: italic;
     text-align: center;
-    color: darkgrey;
+    color: rgb(255, 255, 255);
 }
 
 @font-face {

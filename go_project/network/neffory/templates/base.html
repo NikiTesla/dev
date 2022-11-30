@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4 ">1339</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">you are {{ login }}</a></li>
+            <li class="nav-item"><a href="/pidors" class="nav-link">Нефоры</a></li>
+            <li class="nav-item"><a href="/add_pidor" class="nav-link">Добавить нефора</a></li>
+            <li class="nav-item text-danger"><a href="/unsetsession" class="nav-link text-danger">Перестать быть нефором</a></li>
+
+          </ul>
+        </header>
+      </div>
+
+    {% block body %} {% endblock %}
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">1339</a></li>
+        <li class="nav-item"><a href="/pidors" class="nav-link px-2 text-muted">Нефоры</a></li>
+        <li class="nav-item"><a href="/add_pidor" class="nav-link px-2 text-muted">Добавить нефора</a></li>
+      </ul>
+      <p class="text-center text-muted"><a href="https://vk.com/krechetnik" class="nav-link px-2 text-muted">
+        © 2022 Krechetov Inc.</a></p>
+    </footer>
+</body>
+</html>

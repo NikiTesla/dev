@@ -3,7 +3,11 @@ import requests
 import argparse
 
 import sys
+<<<<<<< HEAD
 sys.path.append('C:\\dev\\dev\\q_app')
+=======
+sys.path.append('/home/krechetov/dev/q_app')
+>>>>>>> 6975834373a499a0b8934f235ded6403aeba11e9
 
 from flask import Flask, request, jsonify, abort
 from utils import config_parser
@@ -12,7 +16,11 @@ from app.db.interaction.interaction import DbInteraction
 
 class Server:
 
+<<<<<<< HEAD
     def __init__(self, host, port, rebuild_db=False):
+=======
+    def __init__(self, host, port, ebuild_db=False):
+>>>>>>> 6975834373a499a0b8934f235ded6403aeba11e9
         self.host = host
         self.port = port
 
@@ -59,7 +67,11 @@ if __name__ == "__main__":
 
     server = Server(
         host = server_host,
+<<<<<<< HEAD
         port = server_port      
+=======
+        port = server_port     
+>>>>>>> 6975834373a499a0b8934f235ded6403aeba11e9
     )
 
     server.run_server()

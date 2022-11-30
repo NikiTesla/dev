@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Нефоры
+{% endblock %}
+
+{% block body%}
+<h1 class="mb-4">Нефоры</h1>
+{% for pidor in pidors %}
+
+<!-- Displaying pidor -->
+<div class="alert alert-info">
+    <h2>{{ pidor.name }}</h2>
+    <p>Date: {{ pidor.date.date() }}</p>
+
+    <div class="btn-group" role="group" aria-label="Операции с нефором">
+        <a href="/pidor/{{ pidor.id }}" class="btn btn-primary text-light">Подробнее</a>
+        <button type="button" class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#dmodel">Удалить</button>
+    </div>
+</div>
+
+<!-- modal form for password-->
+<div class="modal fade" id="dmodel" tabindex="-1" aria-labelledby="dmodelLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="dmodel">Delete neffor</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Пароль:</label>
+            <input class="form-control" id="password" data-bs-target="#password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-primary" id="delbtn" onclick="d();">Удалить нефора</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function d() {
+      const password = document.getElementById('password').value;
+      if (password == "iamgay"){
+          document.location.href = "/pidor/delete/{{ pidor.id }}";
+      }
+      else{
+          alert("Matvey gondon");
+      }
+  };
+</script>
+{% endfor %}
+
+{% endblock %}

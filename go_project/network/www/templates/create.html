@@ -1,0 +1,17 @@
+{{ define "create" }}
+
+{{ template "header" }}
+
+<main role="main" class="inner cover container">
+    <h1 class="cover-heading">Form to create neffor</h1>
+    <form action="/save_article" method="post">
+        <input type="text" name="name" id="name" placeholder="Neffor's name" class="form-control"><br>
+
+        <textarea name="about" id="about" class="form-control" placeholder="Enter facts about neffor"></textarea><br>
+        <button class="btn btn-warning">Add</button>
+    </form>
+</main>
+
+{{ template "footer" }}
+
+{{ end }}
