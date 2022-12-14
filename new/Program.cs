@@ -17,19 +17,37 @@ namespace devdotnet.New
             }
         }
 
-        static double Sum(string message, params double[] parameters)
+        static void Print(params object[] attributes)
         {
-            double result = 0;
-            Console.Write(message);
+            for (int i = 0; i < attributes.Length; i++) Console.Write(attributes[i] + " ");
+            Console.WriteLine();
+        }
 
-            for (int i = 0; i < parameters.Length; i++) result += parameters[i];
+        static string Input()
+        {
+            Console.Write("Input: ");
+            return Console.ReadLine();
+        }
 
-            return result;
+        static void Foo(int i, int n = 10)
+        {
+            Print(i);
+            if (i >= n) return;
+            i++;
+            Foo(i, n);
+        }
+
+        static int Int(string str)
+        {
+            return int.Parse(str);
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine(Sum("Hello, sum is: ", 1.1, 2.2, 3.0, 4.1));
+            int n = Int(Input());
+            Foo(0, n);
+            
+            Print("parsing: ", 1, 2, 3, 4);
         }
     }
 }
