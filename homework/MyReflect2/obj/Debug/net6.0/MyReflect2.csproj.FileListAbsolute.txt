@@ -1,0 +1,15 @@
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.csproj.AssemblyReference.cache
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.GeneratedMSBuildEditorConfig.editorconfig
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.AssemblyInfoInputs.cache
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.AssemblyInfo.cs
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.csproj.CoreCompileInputs.cache
+C:\devdotnet\homework\MyReflect2\bin\Debug\net6.0\MyReflect2.exe
+C:\devdotnet\homework\MyReflect2\bin\Debug\net6.0\MyReflect2.deps.json
+C:\devdotnet\homework\MyReflect2\bin\Debug\net6.0\MyReflect2.runtimeconfig.json
+C:\devdotnet\homework\MyReflect2\bin\Debug\net6.0\MyReflect2.dll
+C:\devdotnet\homework\MyReflect2\bin\Debug\net6.0\MyReflect2.pdb
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.dll
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\refint\MyReflect2.dll
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.pdb
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\MyReflect2.genruntimeconfig.cache
+C:\devdotnet\homework\MyReflect2\obj\Debug\net6.0\ref\MyReflect2.dll

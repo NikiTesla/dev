@@ -1,0 +1,15 @@
+C:\devdotnet\homework\collections\bin\Debug\net6.0\collections.exe
+C:\devdotnet\homework\collections\bin\Debug\net6.0\collections.deps.json
+C:\devdotnet\homework\collections\bin\Debug\net6.0\collections.runtimeconfig.json
+C:\devdotnet\homework\collections\bin\Debug\net6.0\collections.dll
+C:\devdotnet\homework\collections\bin\Debug\net6.0\collections.pdb
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.csproj.AssemblyReference.cache
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.AssemblyInfoInputs.cache
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.AssemblyInfo.cs
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.csproj.CoreCompileInputs.cache
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.dll
+C:\devdotnet\homework\collections\obj\Debug\net6.0\refint\collections.dll
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.pdb
+C:\devdotnet\homework\collections\obj\Debug\net6.0\collections.genruntimeconfig.cache
+C:\devdotnet\homework\collections\obj\Debug\net6.0\ref\collections.dll

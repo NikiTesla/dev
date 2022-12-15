@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devdotnet\\homework\\second\\second.csproj": {}
+    "C:\\devdotnet\\homework\\indexator\\indexator.csproj": {}
   },
   "projects": {
-    "C:\\devdotnet\\homework\\second\\second.csproj": {
+    "C:\\devdotnet\\homework\\indexator\\indexator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devdotnet\\homework\\second\\second.csproj",
-        "projectName": "second",
-        "projectPath": "C:\\devdotnet\\homework\\second\\second.csproj",
+        "projectUniqueName": "C:\\devdotnet\\homework\\indexator\\indexator.csproj",
+        "projectName": "indexator",
+        "projectPath": "C:\\devdotnet\\homework\\indexator\\indexator.csproj",
         "packagesPath": "C:\\Users\\krech\\.nuget\\packages\\",
-        "outputPath": "C:\\devdotnet\\homework\\second\\obj\\",
+        "outputPath": "C:\\devdotnet\\homework\\indexator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krech\\AppData\\Roaming\\NuGet\\NuGet.Config"

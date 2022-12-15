@@ -1,0 +1,15 @@
+C:\devdotnet\homework\indexator\bin\Debug\net6.0\indexator.exe
+C:\devdotnet\homework\indexator\bin\Debug\net6.0\indexator.deps.json
+C:\devdotnet\homework\indexator\bin\Debug\net6.0\indexator.runtimeconfig.json
+C:\devdotnet\homework\indexator\bin\Debug\net6.0\indexator.dll
+C:\devdotnet\homework\indexator\bin\Debug\net6.0\indexator.pdb
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.csproj.AssemblyReference.cache
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.GeneratedMSBuildEditorConfig.editorconfig
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.AssemblyInfoInputs.cache
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.AssemblyInfo.cs
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.csproj.CoreCompileInputs.cache
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.dll
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\refint\indexator.dll
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.pdb
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\indexator.genruntimeconfig.cache
+C:\devdotnet\homework\indexator\obj\Debug\net6.0\ref\indexator.dll
